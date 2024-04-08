@@ -2,13 +2,16 @@
   "name": "lw_create_react_app",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
-  "bin":{
-    "lw_react_cli":"lib/index.js"
+  "main": "lib/index.js",
+  "bin": {
+    "lw_cli": "lib/index.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^12.0.0"
+  }
 }
